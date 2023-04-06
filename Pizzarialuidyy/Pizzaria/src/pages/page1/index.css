@@ -1,0 +1,154 @@
+* {  
+    margin: 0px;
+    
+    box-sizing: border-box;
+
+   
+}
+
+body{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-weight: normal;
+}
+
+img {
+    height: auto;
+}
+
+.background{
+    display: flex;
+    justify-content: center;
+    width: 1300px;
+}
+
+.img-fundo {
+    width: 1400px;
+}
+
+#part1{
+    display: flex;
+    flex-direction: column;
+    height: 563px;
+    width: 1200px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.s1-cabecalho{
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+    position:relative;
+    right: 1px;
+    top: -570px;
+
+    width: 100%;
+
+
+}
+
+.sad > img{
+    width: "124" ;
+    height:"34";
+    justify-content:flex-end;
+    width: 100px;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px 25px 40px 0px;
+    flex-wrap: nowrap;
+    width: 700px;
+    padding-left: 200px;
+    color: #fff;
+   
+}
+.s1-cabecalho > img{
+    width: "124" ;
+    height:"34";
+    justify-content:flex-end;
+    width: 90px;
+    height: 40px;
+    padding:20px 30px 40px 0px;
+}
+
+h1{
+    position:relative;
+    left: 50px;
+    top: -410px;
+    color:aliceblue  ;
+    
+    
+}
+
+#part2{
+    background-color: #F0BA50;
+    display: flex;
+    flex-direction: column;
+
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 30px 50px 80;
+    
+    width: 1400px;
+    height: 1000px;
+     
+}
+
+#part2 > img{
+    display: flex;
+    width: x;
+    padding: 00px 220px 0px 200px;
+}
+
+.luidy{
+    display: flex;
+}
+
+.luidy > img{
+    position: relative;
+    left: 20px;
+   
+}
+
+.texto{
+
+}
+
+.pqvei{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    font-family:initial;
+    height: 90px;
+    font-weight: normal;
+    padding: 30px 60px;
+    font: 25px 'gosa';
+}
+
+.texto > h6{
+    font-size: 25px;
+    padding: 0px 100px;
+    font: 20px 'gosa';
+
+}   
+#phone{
+ padding-left: 1050px;
+ font-size: 25px;
+
+}

@@ -1,0 +1,99 @@
+*{  margin: 0;
+    padding: 0;
+    }
+
+body{ 
+  background-color: #F6BE4F;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 90px;
+position:relative;
+left: 700px;
+width: 200px;
+}
+
+#all{
+display: flex;
+flex-direction: row;
+}
+
+.logo{
+width: 260px;
+position: relative;
+left: 60px;
+}
+
+.login{
+display: flex;
+flex-direction: column;
+padding: 130px 0px 310px 370px;
+align-items: center;
+justify-content: space-evenly;
+
+border-radius: 40px;
+background-color: #F59236;
+
+position: relative;
+left: 110px;
+}
+
+.login > textarea{
+    padding: 15px 10px 15px 351px;
+    position: relative;
+    right: 200px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-indent: -330px;
+
+    border-radius: 40px;
+}
+
+.login > input{
+padding: 30px 0px 15px 350px;
+position: relative;
+top: 100px;
+right: 200px;
+
+
+border-radius: 40px;
+}
+
+input{
+  padding: 28px 350px 28px 20px !important;
+}
+
+#key{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+    position: relative;
+    right: 80px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.botao{
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+
+padding: 1px 1px 30px 1px;
+
+position: relative;
+right: 400px;
+}
+
+.botao > button{
+  padding: 30px 80px;
+  border-radius: 35px;
+}
